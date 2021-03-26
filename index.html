@@ -7,49 +7,110 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Hello, world!</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+     <title>Hello, world!</title>
+    <link rel="stylesheet" href="style1.css">
   </head>
   <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="content">
-          <label class="logo" href="#">EduNexT</label>
-          
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <label class="logo" href="#">EduNexT</a>
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+           <li class="nav-item">
+               <a class="nav-link" href="#about">about us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">about us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item ">
+                <a  class="nav-link" href="#gallery">
                   Gallery
                 </a>
-              
               </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="#team">Team</a>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                <a  class="nav-link" href="#contact us" >Contact us</a>
               </li>
             </ul>
-           
+           </div>
           </div>
-        </div>
+        
       </nav>
 
 
 
-    <div>
-        <img src="ed.jpg" height="50%" width="100%">
+    <div id="home">
+        <img src="ed.jpg" height="30%" width="100%">
         
     </div>
 
     </div>
 
-    <section>
+    <section class="gallery" id="gallery">
         <div class="container">
-            <center><h1>Gallery</h1></center>
+            <center><h3 class="gal">GALLERY</h3></center>
+        <center><div class="gallery">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="gal1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gal2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gal3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gal4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gal7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gal6.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </center>
+    </section>
+<div>
+<section class="about" id="about">
+<div class="container">
+    <div class="row">
+        <div class="col">
+         <section class="ab">
+          <img  src="about.jpg"  height="90%" width="100%">
+           </section>
+        </div>
+        <div class="col">
+          <h2 class="a"> ABOUT US</h2>
+    <p class="paragrah">
+    'EduNexT'​ is a Student Community at Kristu Jyoti College of Management and Technology. It was later recognized as an Innovation and Entrepreneur Development Centre (IEDC) by Kerala Start-up Mission in the year 2015.
+    
+    Inovus Labs is a Start-up incubation Centre for nurturing the spirit of Entrepreneurship and Innovative thinking of its fellows. We are the first of its kind at an Arts & Science College. We are funded for our innovative start-ups by Kerala Start-up Mission. Amazon Web Services, KASPEROB, Mozilla, Github, and Internshala collaborate with us to achieve our goals. Technical Support for all the programs conducted in the college are provided by us.
+    
+    </p>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+ <section class="team" id="team">
+        <div class="container">
+            <center><h3 class="te">TEAM</h3></center>
             <div class="row py-5">
               <div class="col-4">
                 <img style="height: 180px; width: auto;" src="ed.jpg" alt="">
@@ -74,5 +135,56 @@
               </div>
           </div>
     </section>
+<div class="contact">
+<section id="contact us">
+   <div class="container">
+   <h1 class="get">GET IN TOUCH...</h1>
+
+   <div class="row">
+        <div class="col-6 pt-4 ">
+            <div class="mb-4 ">
+                <input  name="n" type="text" class="form-control" placeholder="enter your name">
+            </div>
+            <div class="mb-4">
+                <input name="em" type="text" class="form-control" placeholder="enter your email-id">
+            </div>
+            <div class="mb-4" >
+                <input name="c" type="text" class="form-control" placeholder="enter your contact no:">
+            </div>
+        </div>
+        <div class="col-6 pt-4">
+            <textarea rows="6" cols="75"  class="form-control" placeholder="message"></textarea>
+        </div>
+   </div>
+      <div class="button">
+          <button type="button" class="btn btn-primary px-5">submit</button>
+       </div>
+   <div class="row pt-4"> 
+       <div>
+           <h3 class="con">CONTACT US</h3>
+       </div>
+       <div class="col-4 pt-4">
+           <h5>ADDRESS</h5>
+            <p >
+             kristu jyothi college<br>
+             Nemam<br>
+             Nemam p.o,delhi<br>
+             kerala
+           </p> 
+       </div>
+       <div class="col-4 pt-4">
+           <h4>Phone no:</h4>
+           <p>
+              +91-9994444321
+           </p>
+       </div>
+       <div class="col-4 pt-4">
+           <h4>EMAIL-ID</h4>
+           <P>edunext10200@gmail.com</P>
+       </div>
+   </div>
+        
+</section>
+</div>
   </body>
 </html>

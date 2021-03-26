@@ -49,10 +49,25 @@ nav ul li a{
      transition: .5s;
  }
 .gallery{
-             background: wheat;
+             background:  white;
+             
               text-decoration: underline;
+              
+}
+.gal{
+    padding-top: 50px;
+    font-weight: bold;
+}
+.gallery{
+    height: 50%;
+    width: 100%;
+
+}
+.about{
+    background: #ADD8E6 ;
 }
 .ab{
+    
      padding: 50px;
      margin: 20px;
 }
@@ -67,15 +82,34 @@ nav ul li a{
                float: right;
 } 
 .team{
-       background: #ADD8E6;
+       background: white;
        padding: 40px;
        text-decoration: underline;
+       
     } 
+    .te{
+        padding-top: 30px;
+        font-weight: bold;
+    }
 .contact{
-             background: wheat;
-              height: 500px;
+             background:  #4169E1;
+              height: 750px;
               width: 100%;
+              
               }
 .con{
+    padding-top: 30px;
       text-decoration: underline;
+      
+}
+.p{
+    float: right;
+}
+.get{
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.button{
+    padding: 0 450px ;
 }
